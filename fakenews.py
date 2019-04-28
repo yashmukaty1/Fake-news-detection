@@ -8,8 +8,6 @@ Original file is located at
 """
 
 # Code to read csv file into Colaboratory:
-!pip install "tensorflow>=1.7.0"
-!pip install tensorflowjs
 !pip install -U -q PyDrive
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
